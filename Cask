@@ -42,6 +42,7 @@
 (depends-on "js2-refactor")
 (depends-on "json-mode")
 (depends-on "magit")
+(depends-on "material-theme")
 (depends-on "markdown-mode")
 (depends-on "motion-mode")
 (depends-on "multiple-cursors")
