@@ -18,6 +18,9 @@ I install emacs on Mac OS X using this
 $ brew install emacs --HEAD --use-git-head --with-cocoa
 ```
 
+You might want to link to Emacs from you application folder to appear
+like a normal app: `brew linkapps emacs`
+
 Next, install [Cask](http://cask.github.io/):
 
 ```bash
