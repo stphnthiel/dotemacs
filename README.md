@@ -15,7 +15,7 @@ I install emacs on Mac OS X using this
 [homebrew](http://brew.sh/) recipe:
 
 ```bash
-$ brew install emacs --HEAD --use-git-head --cocoa
+$ brew install emacs --HEAD --use-git-head --with-cocoa
 ```
 
 Next, install [Cask](http://cask.github.io/):
