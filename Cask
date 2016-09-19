@@ -1,7 +1,7 @@
 (source gnu)
-;;(source melpa-stable)
-(source marmalade)
-(source melpa)
+(source melpa-stable)
+;(source marmalade)
+;(source melpa)
 
 (depends-on "ace-jump-mode")
 (depends-on "ack-and-a-half")
