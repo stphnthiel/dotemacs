@@ -26,7 +26,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (yaml-mode visual-regexp undo-tree tuareg smex smartparens slime-company skewer-mode robe restclient rainbow-mode processing-mode pretty-symbols powerline parenface-plus paredit pallet motion-mode markdown-mode magit json-mode js2-refactor ido-ubiquitous highlight haml-mode geiser fringe-helper flymake-ruby flymake-coffee find-file-in-project expand-region elisp-slime-nav diminish company-inf-ruby company-go company-ghc color-theme coffee-mode cider bundler aggressive-indent ag ack-and-a-half ace-jump-mode)))
+    (yaml-mode visual-regexp undo-tree tuareg smex smartparens slime-company skewer-mode robe restclient rainbow-mode processing-mode pretty-symbols powerline parenface-plus paredit pallet motion-mode markdown-mode magit json-mode js2-refactor ido-ubiquitous highlight haml-mode geiser fringe-helper flymake-ruby flymake-coffee find-file-in-project expand-region elisp-slime-nav diminish company-inf-ruby company-go company-ghc color-theme coffee-mode bundler aggressive-indent ag ack-and-a-half ace-jump-mode)))
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil)
  '(vc-annotate-background nil)
