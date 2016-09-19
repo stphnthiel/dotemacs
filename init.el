@@ -20,7 +20,7 @@
  '(column-number-mode t)
  '(custom-safe-themes
    (quote
-    ("67ca766b07ce92be5c0a0111930378d724e9927c890675d4847a774daabc8eaa" "53fc4871f519e34fd25604a5391272527b2dbb4e365b97615615e5bb8c9f16b6" default)))
+    ("15835b9d167f29341a0ef018ee05a888621a192588ce31b2b2e9a677252c014c" "67ca766b07ce92be5c0a0111930378d724e9927c890675d4847a774daabc8eaa" "53fc4871f519e34fd25604a5391272527b2dbb4e365b97615615e5bb8c9f16b6" default)))
  '(fci-rule-color "#ECEFF1")
  '(hl-sexp-background-color "#efebe9")
  '(menu-bar-mode nil)
@@ -109,4 +109,8 @@
  '(company-tooltip-common-selection ((t (:inherit font-lock-keyword-face))))
  '(company-tooltip-selection ((t (:inherit font-lock-keyword-face)))))
 
+;; enable line numbers
+(global-linum-mode t)
+
+;; load material design theme
 (load-theme 'material-light t)
