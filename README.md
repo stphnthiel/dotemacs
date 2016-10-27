@@ -15,7 +15,7 @@ I install emacs on Mac OS X using this
 [homebrew](http://brew.sh/) recipe:
 
 ```bash
-$ brew install emacs --HEAD --use-git-head --with-cocoa
+$ brew install emacs --with-cocoa
 ```
 
 You might want to link to Emacs from you application folder to appear
@@ -41,6 +41,12 @@ package dependencies:
 $ cd ~/.emacs.d
 $ cask install
 ```
+
+The `Cask` file comments out melpa, which lists many dependencies in an
+unstable state. But for a few dependencies, melpa is needed. Open the
+`Cask` file, uncomment line 4 `(source melpa)` and run `cask install`
+again to install the missing dependencies leaving all installed at
+their stable version. When done, you can comment line 4 again.
 
 Once this is complete, you should also install the
 [Aspell](http://aspell.net/) spell checker, required by
