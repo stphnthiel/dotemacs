@@ -5,5 +5,6 @@ backups
 elpa
 ido.last
 recentf
+tramp
 *-local.el
 .cask
