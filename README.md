@@ -15,7 +15,7 @@ I install emacs on Mac OS X using this
 [homebrew](http://brew.sh/) recipe:
 
 ```bash
-$ brew install emacs --with-cocoa
+$ brew cask install emacs
 ```
 
 You might want to link to Emacs from you application folder to appear
