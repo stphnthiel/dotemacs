@@ -8,3 +8,4 @@ recentf
 tramp
 *-local.el
 .cask
+.DS_Store
